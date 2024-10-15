@@ -1,0 +1,196 @@
+* {
+
+    color: black;
+    margin: 0%;
+    padding: 0%;
+}
+
+#nevbar {
+    background-color: rgb(13, 237, 39);
+    height: 100px;
+
+    text-transform: capitalize;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li {
+    list-style-type: none;
+    align-self: center;
+
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    background-image: url("logo.jpg");
+    background-size: cover;
+    color: red;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#center {
+    background-color: rgb(57, 204, 44);
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+
+}
+
+#home {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("home.jpg");
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+b {
+    width: 45%;
+    font-style: italic;
+    font-family: Arial;
+    font-size: x-large;
+
+}
+
+.about {
+    height: 300px;
+    background-color: rgb(155, 226, 153);
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    margin: 0px 120px 0px 120px;
+    gap: 0.5rem;
+    font-size: 25px;
+}
+
+.about1 {
+    height: 800px;
+    margin: 1rem;
+    background-color: rgb(57, 204, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+}
+
+.box1 {
+    height: 750px;
+    width: 45%;
+    background-color: rgb(94, 236, 96);
+    display: inline-block;
+    border-radius: 25px;
+    margin: 1rem;
+}
+
+.images1 {
+    height: 375px;
+    margin: 1rem;
+    background-image: url("puri.jpg");
+    background-size: cover;
+}
+
+.box2 {
+    height: 750px;
+    width: 45%;
+    background-color: rgb(94, 236, 96);
+    display: inline-block;
+    border-radius: 25px;
+    margin: 1rem;
+}
+
+.images2 {
+    height: 375px;
+    background-image: url("gate.jpg");
+    margin: 1rem;
+    background-size: cover;
+}
+
+.about2 {
+    height: 800px;
+    margin: 1rem;
+    background-color: rgb(57, 204, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.box3 {
+    height: 750px;
+    width: 45%;
+    background-color: rgb(94, 236, 96);
+    display: inline-block;
+    border-radius: 25px;
+    margin: 1rem;
+}
+
+.images3 {
+    height: 375px;
+    background-image: url("tajmahal.jpg");
+    margin: 1rem;
+    background-size: cover;
+}
+
+.box4 {
+    height: 750px;
+    width: 45%;
+    background-color: rgb(94, 236, 96);
+    display: inline-block;
+    border-radius: 25px;
+    margin: 1rem;
+}
+
+.images4 {
+    height: 375px;
+    background-image: url("pyramid.jpg");
+    margin: 1rem;
+    background-size: cover;
+}
+
+.text1 {
+    height: 350px;
+    margin: 1rem;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#service {
+    height: 400px;
+    width: 300px;
+    background-color: rgba(11, 215, 124, 0.881);
+    text-align: center;
+    display: inline-block;
+    margin: 30px 20px 30px 20px;
+    border-radius: 25px;
+    font-size: 25px;
+
+
+}
+
+#contact {
+    background-color: rgb(27, 162, 12);
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+}
